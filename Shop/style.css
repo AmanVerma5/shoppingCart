@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    font-size: larger;
+    position:fixed;
+    width:98%;
+}
+
+#links{
+    display: flex;
+}
+#links div{
+    color:#A9A9A9;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+main{
+    display:flex;
+}
+main div{
+    margin-bottom: 0.5em;
+}
+#filter-container{
+    position: fixed;
+    width: 15%;
+    top:60px;
+    height:100vh;
+}
+#filters{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+}
+#shopping-section{
+    margin-left:15%;
+    width: 85%;
+    background-color: #FAF9F6;
+}
+#filters *{
+    padding-left: 1em;
+}
+#filters button{
+    margin:1em auto;
+    width: 80%;
+    height: 2em;
+    border:1px solid white;
+    background-color: black ;
+    color: white;
+}
+#filters button:hover{
+    background-color: white;
+    color:black;
+}
+#ratingValue{
+    padding:5px;
+}
+#search-section{
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 2px gray;  
+    margin-top:5em; 
+}
+#search-img{
+    margin: 0;
+    display: flex;
+    align-items: center ;
+}
+#search-bar{
+    width:100%;
+    margin-bottom: 0;   
+}
+#search-bar input{
+    border:0;
+    font-size: 20px;
+    width:95%;
+}
+#search-img *{
+    padding-left: 5px;
+}
+#search-bar input{
+    margin-left:10px;  
+    border: none;
+    background: none;   
+    outline: none;
+    caret-color: black; 
+    padding:10px;
+}
+#tag-search{
+    display: flex; 
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#tag-search div{
+    width:15%;
+}
+#tag-search div button{
+    width:100%;
+    background: none;
+    border:1px solid black;
+    font-size: larger;
+    height:50px;
+    border-radius: 10px;
+}
+#tag-search div button:hover{
+    background-color: black;
+    color:white;
+}
+#show-products{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    width:22%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+    
+.image-section{
+    width:100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   width:95%;
+   height:98%;
+}
+.display-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.costnsize{
+    width:95%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+hr{
+    margin-top: auto;
+}
+.cart{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin:0;
+    padding:10px;
+    margin-top: auto;
+}
+.title{
+    width:95%;
+    margin:25px auto;
+}
+.color{
+    width:95%;
+    margin:10px auto;
+}
+.rating-section{
+    width:95%;
+    margin:10px auto;
+}
+
+#hiddenid{
+    display: none;
+}
+

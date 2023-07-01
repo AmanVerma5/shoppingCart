@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    font-size: larger;
+}
+#links a{
+    color:#A9A9A9;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+#one{
+    width: 30%;
+    float: left;
+    margin-left:1rem
+}
+#one p{
+    font-size: 1.5rem;
+}
+#two{
+   
+    width: 60%;
+    float: left;
+    margin-top: 50px;
+}
+button{
+    border:1px solid black;
+    background-color: white;
+    width:7rem;
+    font-size: 1.2rem;
+    height: 2rem;
+    margin-right:3rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:link{
+    color:#A9A9A9;
+    text-decoration: none;
+}
+a:visited{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+a:active{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+img{
+    width:100%;
+    height:100%
+}
