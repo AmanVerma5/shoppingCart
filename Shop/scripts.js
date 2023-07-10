@@ -333,6 +333,7 @@ function addToCart() {
     this.innerText="Added to cart"
     for(let i=0;i<fetchedData.length;i++){
         if(fetchedData[i].id==hiddenDiv.innerText){
+            fetchedData[i].quantity=1;
             cartItems.push(fetchedData[i])
             localStorage.setItem("cart", JSON.stringify(cartItems));
             break;
@@ -345,3 +346,14 @@ cart.addEventListener("click",()=>{
     window.location.pathname="../Cart/"
 })
 
+let profile=document.getElementById("profile")
+profile.addEventListener("click",()=>{
+    window.location.pathname="../Profile/"
+})
+
+const filterButton = document.getElementById('filter-button');
+const filterDropdown = document.getElementById('filter-dropdown');
+
+filterButton.addEventListener('click', () => {
+    filterButton.parentElement.classList.toggle('active');
+});

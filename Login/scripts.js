@@ -15,14 +15,14 @@ button.addEventListener("click",(event)=>{
 
 
 function checkIfUserExsist(email,password,allUsers){
-    let user=allUsers.filter((element)=>{
+    let user=allUsers.find((element)=>{
         if(element.email==email.value && element.password==password.value){
             sessionStorage.setItem("loggedInUser",JSON.stringify(element))
             localStorage.setItem("currentUser",`${element.email}`)
             return true
         }
     })
-    return false;
+    return typeof user === "undefined";
 }   
 
 

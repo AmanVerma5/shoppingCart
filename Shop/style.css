@@ -32,6 +32,10 @@ main div{
     width: 15%;
     top:60px;
     height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 #filters{
     padding-left: 1em;
@@ -39,6 +43,8 @@ main div{
     flex-direction: column;
     background-color: black;
     color:white;
+    flex: 1;
+    overflow-y: auto;
 }
 #shopping-section{
     margin-left:15%;
