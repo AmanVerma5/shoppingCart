@@ -70,6 +70,9 @@ h1{
     overflow: scroll;
     align-items: center;
 }
+#product-name::-webkit-scrollbar{
+    display: none;
+}
 
 
 .item-container{
